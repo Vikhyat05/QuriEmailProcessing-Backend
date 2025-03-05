@@ -1,0 +1,61 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env
+
+# IDE files (optional, based on what you're using)
+.vscode/
+.idea/
+
+# System files (macOS/Linux/Windows)
+.DS_Store
+Thumbs.db
+
+# Logs and debugging
+*.log
+
+# Local testing files
+test.html
+emailTest.py
+test.py
+
+# Ignore any temporary or secret files
+*.bak
+*.swp
+
+# Ignore requirements.txt if you're auto-generating it, otherwise keep it
+# You can remove this if you want to track it
+# requirements.txt
+
+# Supabase files if any secrets/config exist
+.supabase/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Pytest cache
+.cache/
+pytest_cache/
+
+# Jupyter Notebook checkpoints (in case you add Jupyter later)
+.ipynb_checkpoints/
+
+# Ignore data or backup files if you have any
+*.db
+*.sqlite
+*.zip
+*.tar.gz
+
+# Ignore AI Model Files if you ever download them directly
+*.pt
+*.h5
+*.pkl
